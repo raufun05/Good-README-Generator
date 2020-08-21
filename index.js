@@ -59,22 +59,22 @@ return inquirer
       name: "tests",
       message: "Provide examples on how to run tests"
     },
-    // {
-    //   type: "input",
-    //   name: "question1",
-    //   message: "Enter the url of your profile picture"
-    // },
-    // // format: ![alt text] (url)
-    // {
-    //   type: "input",
-    //   name: "question2",
-    //   message: "Enter the email address"
-    // },
-    // {
-    //   type: "input",
-    //   name: "question3",
-    //   message: "Enter the url of your github repository"
-    // },
+    {
+      type: "input",
+      name: "question1",
+      message: "Enter the url of your profile picture"
+    },
+    // format: ![alt text] (url)
+    {
+      type: "input",
+      name: "question2",
+      message: "Enter the email address"
+    },
+    {
+      type: "input",
+      name: "question3",
+      message: "Enter the url of your github repository"
+    },
     {
       type: "input",
       name: "table",
