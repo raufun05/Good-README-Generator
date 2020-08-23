@@ -11,12 +11,12 @@ return inquirer
       type: "input",
       name: "title",
       message: "What is your project title?",
-      default: "Generate a good README.md file "
+      default: "Generate a good README.md file"
     },
     {
       type: "input",
       name: "description",
-      message: "Please provide your project description"
+      message: "Please provide your project description-"
     },
     {
       type: "input",
@@ -26,12 +26,12 @@ return inquirer
     {
       type: "input",
       name: "usage",
-      message: "Please describe usage"
+      message: "Please describe usage-"
     },
     {
       type: "list",
       name: "license",
-      message: "Please select a License",
+      message: "Please select a License-",
       choices: [
         "MIT",
         "Apache",
@@ -46,33 +46,28 @@ return inquirer
     {
       type: "input",
       name: "email",
-      message: "Enter the email address"
-    },
-    {
-      type: "input",
-      name: "image",
-      message: "Who is the author?"
+      message: "Enter the email address-"
     },
     {
       type: "input",
       name: "tests",
-      message: "Provide examples on how to run tests"
+      message: "Provide examples on how to run tests-"
     },
     {
       type: "input",
       name: "badge",
-      message: "input badge code?"
+      message: "Input badge code please?"
     },
     {
       type: "input",
       name: "question1",
-      message: "Enter the url of your profile picture"
+      message: "Enter the url of your profile picture-"
     },
     {
       type: "input",
       name: "question2",
-      message: "Enter the url of your github repository"
-    },
+      message: "Enter the url of your github repository-"
+    }
   ]);
 };
 const init = async() => {
