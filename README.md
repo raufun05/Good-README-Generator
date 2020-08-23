@@ -15,7 +15,7 @@ This is a node.js app that takes user input and creates a good readme.md file fo
 * [Email](#email)
 
 ## Installation
-Simply clone the code into your repo and install dependencies with ‘npm i’ command in terminal, and then run the program with the command ‘node index.js’. 
+Simply clone the code into your repo and install dependencies with ‘npm i’ command in terminal, and then run the program with the command ‘node index.js’.
 
 ## Usage
 First of all, run ‘node index’js’ and answer the all questions then README.md file will be created.
@@ -40,9 +40,9 @@ raufun05@yahoo.com
 
 ## Profile Picture
 Please click the link below-
-- [Profile Picture](https://drive.google.com/file/d/1NpqgzksgSEZZMUt_JVysgiVHqTJRNVYL/view?usp=sharing/https://drive.google.com/file/d/1NpqgzksgSEZZMUt_JVysgiVHqTJRNVYL/view?usp=sharing/${data.question1)
+- [Profile Picture](https://drive.google.com/file/d/1NpqgzksgSEZZMUt_JVysgiVHqTJRNVYL/view?usp=sharing/[Picture](https://drive.google.com/file/d/1NpqgzksgSEZZMUt_JVysgiVHqTJRNVYL/view?usp=sharing/${data.question1))
 
 ## GitHub
-Please click the link below-
+Please click the link for github repository-
 https://github.com/raufun05/Good-README-Generator
 
