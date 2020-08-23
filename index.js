@@ -2,7 +2,6 @@ const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown");
 const fs = require('fs');
 const util= require('util');
-const { clear } = require("console");
 
 const writeFileAsync= util.promisify(fs.writeFile);
 const promptUser = () => {
@@ -35,14 +34,14 @@ return inquirer
       message: "Please describe usage"
     },
     {
-      type: "checkbox",
+      type: "list",
       name: "license",
-      message: "Choose a License",
+      message: "Please select a License",
       choices: [
-        "MIT License",
-        "Apache License",
-        "GPL License",
-        "ISC Licence"]
+        "MIT",
+        "Apache",
+        "GPL",
+        "ISC"]
     },
     {
       type: "input",
