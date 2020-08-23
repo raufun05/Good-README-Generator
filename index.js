@@ -9,11 +9,6 @@ return inquirer
   .prompt([
     {
       type: "input",
-      name: "badge",
-      message: "input badge code?"
-    },
-    {
-      type: "input",
       name: "title",
       message: "What is your project title?",
       default: "Generate a good README.md file "
@@ -50,7 +45,12 @@ return inquirer
     },
     {
       type: "input",
-      name: "author",
+      name: "email",
+      message: "Enter the email address"
+    },
+    {
+      type: "input",
+      name: "image",
       message: "Who is the author?"
     },
     {
@@ -60,25 +60,19 @@ return inquirer
     },
     {
       type: "input",
+      name: "badge",
+      message: "input badge code?"
+    },
+    {
+      type: "input",
       name: "question1",
       message: "Enter the url of your profile picture"
     },
-    // format: ![alt text] (url)
     {
       type: "input",
       name: "question2",
-      message: "Enter the email address"
-    },
-    {
-      type: "input",
-      name: "question3",
       message: "Enter the url of your github repository"
     },
-    {
-      type: "input",
-      name: "table",
-      message: "write a table of contents separated by comas"
-    }
   ]);
 };
 const init = async() => {

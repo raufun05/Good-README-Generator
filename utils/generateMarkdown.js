@@ -26,21 +26,19 @@ ${data.contributing}
 ## Test
 ${data.tests}
 
-## Questions
-If you have any questions, contact ${data.username} on GitHub.
 
-## Description:
-![License](https://img.shields.io/badge/License-${data.license}-blue.svg "License Badge")
+## Badges
+![License](https://img.shields.io/badge/License-${data.badge}-blue.svg "License Badge")
 
 
 ## License:
-click the link below
+Please click the link below for license
 - [License](https://opensource.org/Licenses/${data.license})
 
 ## Author 
 ![GitHub profile pic](${data.image})
 
-## Badges
+## GitHub repository
 
 ![badmath](https://img.shields.io/github/repo-size/${data.username}/${data.repo})
 
