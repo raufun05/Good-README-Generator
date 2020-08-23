@@ -45,7 +45,7 @@ Please click the link below-
 - [Profile Picture](https://drive.google.com/file/d/1NpqgzksgSEZZMUt_JVysgiVHqTJRNVYL/view?usp=sharing/${data.question1})
 
 ## GitHub
-Please click the link below-
+Please click the link for github repository-
 ${data.question2}
 
 `;
