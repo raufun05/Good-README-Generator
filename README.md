@@ -15,7 +15,7 @@ This is a node.js app that takes user input and creates a good readme.md file fo
 * [Email](#email)
 
 ## Installation
-Simply clone the code into your repo and install dependencies with ‘npm i’ command in terminal, and then run the program with the command ‘node index.js’.
+Simply clone the code into your repo and install dependencies with ‘npm i’ command in terminal, and then run the program with the command ‘node index.js’. 
 
 ## Usage
 First of all, run ‘node index’js’ and answer the all questions then README.md file will be created.
